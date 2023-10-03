@@ -1,2 +1,2 @@
 #!/bin/bash
-read -ra path_dirs <<< "$PATH"
+IFS=':' read -ra path_dirs <<< "$PATH"
